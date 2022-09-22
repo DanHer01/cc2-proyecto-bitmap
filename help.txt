@@ -1,0 +1,17 @@
+Uso general: 
+
+java BMPImageHandler [-option] imagen.bmp
+
+Options: 
+
+-basics	    Ejecuta la parte 1 del Proyecto, generando las tres imagenes RGB y una sepia. 
+
+-rotate	    Ejecuta la parte 2 del Proyecto que rota las imagenes en 180 grados sobre su 
+            eje horizontal y vertical.
+
+-resize     Ejecuta la parte 2 del Proyecto que aplasta y estrecha las imagenes (thin y flat).
+
+-all 	    Ejecuta todas las partes del proyecto. Es equivalente a -basics, -rotate y -resize
+            al mismo tiempo.
+
+-help 	    Desplega esta ayuda.
